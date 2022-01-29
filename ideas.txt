@@ -1,0 +1,3 @@
+Ideas:
+-To do list thing with the Pi and webapp
+    -Add to do item on web app and it will appear on pi
