@@ -4,18 +4,23 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <div id="day"><h1></h1></div>
-        <div id="month-year"><h2></h2></div>
+        <div class="current-date">
+        <ul>
+            <li id="day-num"><h1></h1></li>
+            <li id="day-month-year"><h2 id="day"></h2><h2 id="month-year"></h2></li>
+        </ul>
+        </div>
         <script>
             var date = new Date();
             var year = date.getFullYear();
-            const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
-            const DAYS = ["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+            const MONTHS = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+            const DAYS = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
             var month = MONTHS[date.getMonth()];
-            var day = DAYS[date.getDate()];
-            var dayNum = date.getDay();
+            var day = DAYS[date.getDay()];
+            var dayNum = date.getDate();
+            document.getElementById("month-year").innerHTML = month + " " + year;
             document.getElementById("day").innerHTML = day;
-            document.getElementById("month-year").innerHTML = month + "\n" + year;
+            document.getElementById("day-num").innerHTML = dayNum;
             console.log(day+dayNum+month+year);
         </script>
     </body>
