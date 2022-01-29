@@ -1,3 +1,8 @@
 Ideas:
 -To do list thing with the Pi and webapp
     -Add to do item on web app and it will appear on pi
+- smart mirror 
+    - Weather API and GOogle Calendar stuff for the day
+    - also time of day, maybe alarm??
+    - need to display on frontend
+- fantasy football stats
