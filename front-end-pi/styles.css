@@ -20,12 +20,23 @@ body {
     text-align: right;
 }
 
+#day {
+    font-size: 50px;
+}
+
+#month-year {
+    font-weight: normal;
+    font-size: 20px;
+}
+
 .current-date ul {
     list-style: none;
     border: 2px solid white;
     margin: 10px;
     border-radius: 25px;
     padding-bottom: 0px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .current-date li {
@@ -36,7 +47,6 @@ body {
 }
 
 .current-date h2 {
-    font-size: 25px;
     margin: 0px;
     padding: 0px;
 }
