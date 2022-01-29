@@ -4,6 +4,19 @@
         <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        
+        <div id="day"><h1></h1></div>
+        <div id="month-year"><h2></h2></div>
+        <script>
+            var date = new Date();
+            var year = date.getFullYear();
+            const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+            const DAYS = ["Sun","Mon","Tues","Wed","Thurs","Fri","Sat"];
+            var month = MONTHS[date.getMonth()];
+            var day = DAYS[date.getDate()];
+            var dayNum = date.getDay();
+            document.getElementById("day").innerHTML = day;
+            document.getElementById("month-year").innerHTML = month + "\n" + year;
+            console.log(day+dayNum+month+year);
+        </script>
     </body>
     </html>
