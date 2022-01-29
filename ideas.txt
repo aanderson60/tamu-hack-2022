@@ -6,3 +6,5 @@ Ideas:
     - also time of day, maybe alarm??
     - need to display on frontend
 - fantasy football stats
+- Humidity detector with mister and web app to control/notify
+- Joe mama bot - it makes joe mama and deez nut jokes depending on what you say
